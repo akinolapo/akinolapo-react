@@ -68,11 +68,11 @@ header{
 
 /*======================== MEDIA QUERIES (MOBILE DEVICES) ========================*/
 @media screen and (max-width: 600px) {
-    .container{
-        width: var(--container-width-md);
-    }
+   header{
+       height: 100vh;
+   }
 
-    section{
-        margin-top: 6rem;
-    }
+   .header__socials, .scroll__down{
+       display: none;
+   }
 }

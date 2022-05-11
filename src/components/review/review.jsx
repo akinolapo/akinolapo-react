@@ -3,7 +3,9 @@ import './review.css'
 
 const review = () => {
   return (
-    <div>review</div>
+    <section id='review'>
+      
+    </section>
   )
 }
 
