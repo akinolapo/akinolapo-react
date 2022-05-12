@@ -27,6 +27,7 @@
 
 .service__head h3{
     color: var(--color-bg);
+    text-align: center;
 }
 
 .service__list{
