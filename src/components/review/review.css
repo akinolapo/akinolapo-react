@@ -34,14 +34,14 @@
 
 /*======================== MEDIA QUERIES (TABLET DEVICES) ========================*/
 @media screen and (max-width: 1024px) {
-   .review__container{
+    .container.review__container{
        width: 60%;
    }
 }
 
 /*======================== MEDIA QUERIES (MOBILE DEVICES) ========================*/
 @media screen and (max-width: 600px) {
-    .review__container{
+    .container.review__container{
         width: var(--container-width-sm);
     }
 
