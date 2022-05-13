@@ -8,28 +8,28 @@ const data =[
   id: 1,
   image: process.env.PUBLIC_URL+`assets/portfolio1.png`,
   title: 'Peighton pryor raisey website',
-  github: '#',
+  github: 'https://github.com/akinolapo',
   demo: 'https://p8on.net'
 },
 {
   id: 2,
   image: process.env.PUBLIC_URL+`assets/portfolio2.png`,
   title: 'Darius collection eCommerce Website',
-  github: '#',
+  github: 'https://github.com/akinolapo',
   demo: 'https://www.dariuscordell.com'
 },
 {
   id: 3,
   image: process.env.PUBLIC_URL+`assets/portfolio3.png`,
   title: 'Sheffield Eye Care WordPress Website',
-  github: '#',
+  github: 'https://github.com/akinolapo',
   demo: 'https://sheffieldeyecare.co.uk'
 },
 {
   id: 4,
   image: process.env.PUBLIC_URL+`assets/portfolio4.png`,
   title: 'Blog writing on WordPress Help',
-  github: '#',
+  github: 'https://github.com/akinolapo',
   demo: 'https://www.bookwebmaster.com'
 },
 {
