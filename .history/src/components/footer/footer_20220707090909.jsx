@@ -22,7 +22,7 @@ const footer = () => {
         <div className="footer__socials">
         <a href='https://facebook.com/akinolapo.wp' target= "_blank" rel="noreferrer"><FaFacebookF/></a>
         <a href='https://instagram.com/akinolapo' target= "_blank" rel="noreferrer"><FiInstagram/></a>
-        <a href='https://twitter.com/poakinola' target= "_blank" rel="noreferrer"><IoLogoTwitter/></a>
+        <a href='https://twitter.com/akinola' target= "_blank" rel="noreferrer"><IoLogoTwitter/></a>
         </div>
 
         <div className="footer__copyright">
