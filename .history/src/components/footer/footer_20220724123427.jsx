@@ -3,7 +3,6 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
-import {FaPinterestP} from 'react-icons/fa'
 
 const footer = () => {
   return (
@@ -24,7 +23,8 @@ const footer = () => {
         <a href='https://facebook.com/akinolapo.wp' target= "_blank" rel="noreferrer"><FaFacebookF/></a>
         <a href='https://instagram.com/akinolapo' target= "_blank" rel="noreferrer"><FiInstagram/></a>
         <a href='https://twitter.com/poakinola' target= "_blank" rel="noreferrer"><IoLogoTwitter/></a>
-        <a href='https://www.pinterest.com/akinolapo' target= "_blank" rel="noreferrer"><FaPinterestP/></a>
+        <a href='https://twitter.com/poakinola' target= "_blank" rel="noreferrer"><IoLogoTwitter/></a>
+        <a href='https://twitter.com/poakinola' target= "_blank" rel="noreferrer"><IoLogoTwitter/></a>
         </div>
 
         <div className="footer__copyright">
