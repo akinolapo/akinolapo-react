@@ -22,7 +22,7 @@ const data =[
   id: 3,
   image: process.env.PUBLIC_URL+`assets/portfolio3.png`,
   title: 'Blog App with React | GraphQL, NextJS, TailwindCSS',
-  github: 'https://github.com/akinolapo/usefulhandles_blog',
+  github: 'https://github.com/akinolapo',
   demo: 'https://wordpressvee.vercel.app'
 },
 {

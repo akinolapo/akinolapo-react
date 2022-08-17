@@ -21,9 +21,9 @@ const data =[
 {
   id: 3,
   image: process.env.PUBLIC_URL+`assets/portfolio3.png`,
-  title: 'Blog App with React | GraphQL, NextJS, TailwindCSS',
-  github: 'https://github.com/akinolapo/usefulhandles_blog',
-  demo: 'https://wordpressvee.vercel.app'
+  title: '',
+  github: 'https://github.com/akinolapo',
+  demo: 'https://sheffieldeyecare.co.uk'
 },
 {
   id: 4,
