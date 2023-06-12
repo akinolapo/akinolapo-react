@@ -47,39 +47,15 @@ const data =[
   demo: 'https://ios-music-player.netlify.app/'
 },
 {
-  id: 7,
-  image: process.env.PUBLIC_URL+`assets/portfolio7.jpg`,
-  title: 'Molebi AgroTech Hub Website with React.js & Tailwindcss',
-  github: 'https://github.com/akinolapo/agric-tech',
-  demo: 'https://molebi-agrotech-hub.pages.dev'
-},
-{
-  id: 8,
-  image: process.env.PUBLIC_URL+`assets/portfolio6.png`,
-  title: 'Apple Music Player UI With HTML & CSS',
-  github: 'https://github.com/akinolapo/ios-music-player',
-  demo: 'https://ios-music-player.netlify.app/'
-},
-{
-  id: 9,
+  id: 6,
   image: process.env.PUBLIC_URL+`assets/portfolio6.png`,
   title: 'Apple Music Player UI With HTML & CSS',
   github: 'https://github.com/akinolapo/ios-music-player',
   demo: 'https://ios-music-player.netlify.app/'
 }
-];
-
-const shuffleArray = (array) => {
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-  }
-  return newArray;
-};
+]
 
 const portfolio = () => {
-  const shuffledData = shuffleArray(data);
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -87,7 +63,7 @@ const portfolio = () => {
 
       <div className="container portfolio__container">
        {
-         shuffledData.map(({id, image, title, github, demo})=>{
+         data.map(({id, image, title, github, demo})=>{
            return (
             <article key={id} className='portfolio__item'>
             <div className="portfolio__item-image">

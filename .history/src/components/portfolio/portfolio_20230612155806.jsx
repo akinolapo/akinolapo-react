@@ -69,17 +69,34 @@ const data =[
 }
 ];
 
-const shuffleArray = (array) => {
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-  }
-  return newArray;
-};
+// Shuffle the array to display items randomly
+const shuffledItems = shuffleArray(portfolioItems);
+setItems(shuffledItems);
+
+
+
+
+  // Function to shuffle the array
+  const shuffleArray = (array) => {
+    let currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle
+    while (currentIndex !== 0) {
+      // Pick a remaining element
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // Swap it with the current element
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  };
+
 
 const portfolio = () => {
-  const shuffledData = shuffleArray(data);
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -87,7 +104,7 @@ const portfolio = () => {
 
       <div className="container portfolio__container">
        {
-         shuffledData.map(({id, image, title, github, demo})=>{
+         data.map(({id, image, title, github, demo})=>{
            return (
             <article key={id} className='portfolio__item'>
             <div className="portfolio__item-image">

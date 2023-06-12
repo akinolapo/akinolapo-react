@@ -79,7 +79,6 @@ const shuffleArray = (array) => {
 };
 
 const portfolio = () => {
-  const shuffledData = shuffleArray(data);
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -87,7 +86,7 @@ const portfolio = () => {
 
       <div className="container portfolio__container">
        {
-         shuffledData.map(({id, image, title, github, demo})=>{
+         data.map(({id, image, title, github, demo})=>{
            return (
             <article key={id} className='portfolio__item'>
             <div className="portfolio__item-image">

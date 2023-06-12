@@ -5,7 +5,7 @@ import './portfolio.css'
 
 const data =[
   {
-  id: 1,
+  id: 5,
   image: process.env.PUBLIC_URL+`assets/portfolio1.png`,
   title: 'Peighton pryor raisey website',
   github: 'https://github.com/akinolapo',
@@ -33,7 +33,7 @@ const data =[
   demo: 'https://www.bookwebmaster.com'
 },
 {
-  id: 5,
+  id: 7,
   image: process.env.PUBLIC_URL+`assets/portfolio5.png`,
   title: 'Weather Web App with JavaScript',
   github: 'https://github.com/akinolapo/cityWeatherApp',
@@ -47,7 +47,7 @@ const data =[
   demo: 'https://ios-music-player.netlify.app/'
 },
 {
-  id: 7,
+  id: 2,
   image: process.env.PUBLIC_URL+`assets/portfolio7.jpg`,
   title: 'Molebi AgroTech Hub Website with React.js & Tailwindcss',
   github: 'https://github.com/akinolapo/agric-tech',
@@ -67,19 +67,9 @@ const data =[
   github: 'https://github.com/akinolapo/ios-music-player',
   demo: 'https://ios-music-player.netlify.app/'
 }
-];
-
-const shuffleArray = (array) => {
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-  }
-  return newArray;
-};
+]
 
 const portfolio = () => {
-  const shuffledData = shuffleArray(data);
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
@@ -87,7 +77,7 @@ const portfolio = () => {
 
       <div className="container portfolio__container">
        {
-         shuffledData.map(({id, image, title, github, demo})=>{
+         data.map(({id, image, title, github, demo})=>{
            return (
             <article key={id} className='portfolio__item'>
             <div className="portfolio__item-image">
