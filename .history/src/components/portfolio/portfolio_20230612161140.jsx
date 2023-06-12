@@ -55,10 +55,17 @@ const data =[
 },
 {
   id: 8,
-  image: process.env.PUBLIC_URL+`assets/portfolio8.jpg`,
-  title: 'Naijapackage Marketplace Website with WordPress',
-  github: 'https://github.com/akinolapo',
-  demo: 'https://www.naijapackage.com'
+  image: process.env.PUBLIC_URL+`assets/portfolio8.png`,
+  title: 'Apple Music Player UI With HTML & CSS',
+  github: 'https://github.com/akinolapo/ios-music-player',
+  demo: 'https://ios-music-player.netlify.app/'
+},
+{
+  id: 9,
+  image: process.env.PUBLIC_URL+`assets/portfolio6.png`,
+  title: 'Apple Music Player UI With HTML & CSS',
+  github: 'https://github.com/akinolapo/ios-music-player',
+  demo: 'https://ios-music-player.netlify.app/'
 }
 ];
 

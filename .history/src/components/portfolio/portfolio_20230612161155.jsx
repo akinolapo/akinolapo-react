@@ -56,9 +56,9 @@ const data =[
 {
   id: 8,
   image: process.env.PUBLIC_URL+`assets/portfolio8.jpg`,
-  title: 'Naijapackage Marketplace Website with WordPress',
-  github: 'https://github.com/akinolapo',
-  demo: 'https://www.naijapackage.com'
+  title: 'Naija',
+  github: 'https://github.com/akinolapo/ios-music-player',
+  demo: 'https://ios-music-player.netlify.app/'
 }
 ];
 
