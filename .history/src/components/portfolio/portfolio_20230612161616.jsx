@@ -60,13 +60,6 @@ const data =[
   github: 'https://github.com/akinolapo',
   demo: 'https://www.naijapackage.com'
 },
-{
-  id: 9,
-  image: process.env.PUBLIC_URL+`assets/portfolio9.jpg`,
-  title: 'ATTICXPERTS Website with WordPress, Flatsome & UX builder',
-  github: 'https://github.com/akinolapo',
-  demo: 'https://atticxpertsco.com'
-}
 
 ];
 

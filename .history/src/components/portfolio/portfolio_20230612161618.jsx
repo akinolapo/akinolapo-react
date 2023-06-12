@@ -60,14 +60,12 @@ const data =[
   github: 'https://github.com/akinolapo',
   demo: 'https://www.naijapackage.com'
 },
-{
-  id: 9,
-  image: process.env.PUBLIC_URL+`assets/portfolio9.jpg`,
-  title: 'ATTICXPERTS Website with WordPress, Flatsome & UX builder',
-  github: 'https://github.com/akinolapo',
-  demo: 'https://atticxpertsco.com'
+id: 8,
+image: process.env.PUBLIC_URL+`assets/portfolio8.jpg`,
+title: 'Naijapackage Marketplace Website with WordPress, WooCommerce & Dokan',
+github: 'https://github.com/akinolapo',
+demo: 'https://www.naijapackage.com'
 }
-
 ];
 
 const shuffleArray = (array) => {

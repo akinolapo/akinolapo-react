@@ -63,9 +63,9 @@ const data =[
 {
   id: 9,
   image: process.env.PUBLIC_URL+`assets/portfolio9.jpg`,
-  title: 'ATTICXPERTS Website with WordPress, Flatsome & UX builder',
+  title: 'ATTICXPERTS Website with WordPress, Flatsome',
   github: 'https://github.com/akinolapo',
-  demo: 'https://atticxpertsco.com'
+  demo: 'https://www.naijapackage.com'
 }
 
 ];

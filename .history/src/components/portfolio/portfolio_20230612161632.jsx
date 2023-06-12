@@ -62,10 +62,10 @@ const data =[
 },
 {
   id: 9,
-  image: process.env.PUBLIC_URL+`assets/portfolio9.jpg`,
-  title: 'ATTICXPERTS Website with WordPress, Flatsome & UX builder',
+  image: process.env.PUBLIC_URL+`assets/portfolio8.jpg`,
+  title: 'Naijapackage Marketplace Website with WordPress, WooCommerce & Dokan',
   github: 'https://github.com/akinolapo',
-  demo: 'https://atticxpertsco.com'
+  demo: 'https://www.naijapackage.com'
 }
 
 ];

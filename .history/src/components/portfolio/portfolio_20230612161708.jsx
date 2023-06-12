@@ -65,7 +65,7 @@ const data =[
   image: process.env.PUBLIC_URL+`assets/portfolio9.jpg`,
   title: 'ATTICXPERTS Website with WordPress, Flatsome & UX builder',
   github: 'https://github.com/akinolapo',
-  demo: 'https://atticxpertsco.com'
+  demo: 'https://www.naijapackage.com'
 }
 
 ];
